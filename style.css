@@ -1,0 +1,77 @@
+body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0ICA0IBwcHBw0HBwcHBw8ICQcNFREWFhURExMYHSggGCYlJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRk3LS0rKy0rLS0rLSsrNy0rKysrKzcrKysrKysrLSsrKysrKysrKysrKysrKysrKysrK//AABEIAKQBNAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAgEDBAYF/8QAGBABAQEBAQAAAAAAAAAAAAAAAAECEhH/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAgEEBQP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARES/9oADAMBAAIRAxEAPwD7oB67xQGUGVlKyqYmpramtYy1FbUWqiay1ztVaiqiazVc6q1Fq4mpqK3VRaqIrLUWt1UVaS1NpamtBlPWWtbrBjGmtayNE2gDGDYNGkaz0kGt9aeNg0kVISKkY3WSKkJFSMZrPBfgGvoQHA7BNbU1oVFVUVrGVNraiqiay1Frai1UTWVGq21Fq4mpqLVWoqoiptRW2o1VxNTU1tRaqJpamlrGjKwo0AGs1oDGDQGh42Rsg0jZGyKkY1kipGyNkYaSKkbIqZZomRUyqZXMptbiOR15azTH7AMrjdjKylZVMTU1tTWsZUVtqKqJrLUVtqKqJrLUVtRauJqbUWqtc6qIrLXO1VRauJrLUVVRVJZWUY1gA0AaADZAGyNkVIxrJFSNkVIzRkipFTK5lNrUTK5lUyuZTrZETK5lcyqZTarEzK5lUyuZTarETI68idVj2sramvi+5UVVRWsZU1tqLVJrKi1VrnVRNZUarbUWqiam1FqqjVXEVNqLVWudq4msqK2pqomptTW1NUlgy09azWjGsbrSRsipkGSKkVMqmWaJmVzKplcym1uImVzK5lUym1UiZlcyqZXMptVIiZXMrmVzKbVYiZXMqmVzKbVSImVTK5lUym1WI5a6eMZrcdKytqaldZUVtTa1lZUVtTVRKbUVtRaqJrNVFrbUWriamotVUVURU2otbairibWWoqqmxSU1NXyctS5NkXy2ZbpiZlUyuZVMp1uJmVzKplcynW4mZVMrmVzKbVSImVzK5lUym1UiZlcyqZXMptViZlUyuZVMptVImZXMqmVTKbVYmZVMqkVInVYmRUipGyM1uJ8arxrNbjlUVVRWjKmtqKpNZUVVqLVRNTajSrXOqiay1z0uxPKk1ztTXXk5VqccLlPL0cs5brMcOWcvRwzlumOHJw78s4NZy4cky78M5bpiJlUyuZXMptbIiZXMrmVzKbWyImVzK5lcym1ciJlcyqZXMp1siZlUyqZXMptViZlUyqZVInVYmRUipGyM1uMkbIqRrFYzxoMAAHntRW1li0pqK6XLOWscqi5d+Wcq1mOFyzl6OWct1mOHLOXflnJrMcOWcPRyzk0xw5Zw78nLdZjhwzl35OTWY8/By78nLdMefk4d+TlusxxmVzK+VTLNbiZlcyqZVMp1uJmVzKplUym1UiZlcyqZVInVYmRUipFSM1uJkbIrxqdVjPG+AAAwAAAGjh4crPG6zHPk5dPDxumOXLOXXw8NMcuWcuvhyaY5cs5dfDlusxy5Zy68nJpjlyzl25ZyazHLlnLtyct0xx5Zy7cnJpjjyzl35Zy3WY48tmXXkmTTEzKplcyqRNrcTMqkbIqRmqxkjZFSNTrcZ40AAGAAAAAAAACAGgAAAAMADwaDPDxoDPDxo0T4eLYCeTlTfDTHPk8dPA1mOfJ46eHhpiJFSNkaNwkBrAAYAAAAAAAAAAAAIAaAAAAMGgMaAAADWNAAAGgMGgAAAANAAAYAAAAAAAAAAAAIAaDGgMaAMGgMAAa0Bg0BjY0AAAIAAADWANAYAAAAAAAAAAAAAAP/2Q==");
+    background-size: cover;
+}
+
+
+.container{
+    background-image: url("https://image.freepik.com/free-vector/abstract-background-with-lines-blend-form-waves_87426-21.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 70%;
+    height: 500px;
+    margin: 60px auto;
+    box-shadow:yellow;
+    border-radius: 40px;
+    overflow: auto;
+    box-shadow: 5px 5px 5px black;
+    opacity: 1;
+}
+
+.container:hover{
+    opacity: 0.95;
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+@keyframes form_title{
+    0%{
+        color: tomato;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: orangered;
+    }
+    100%{
+        color: orange;
+    }
+}
+
+.container h1{
+    margin: 60px;
+    padding: 10px;
+    color: whitesmoke;
+    animation-name: form_title;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+
+.container label{
+    font-weight: bold;
+    font-size: 40px;
+    color:whitesmoke;
+    padding: 10px;
+}
+
+.container button{
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+    outline-style: none;
+    box-shadow: 2px 2px 3px white;
+}
+
+.container input{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    outline-style: none;
+    box-shadow: 2px 2px 3px black;
+}
